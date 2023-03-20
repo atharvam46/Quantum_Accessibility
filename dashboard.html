@@ -19,6 +19,7 @@
         id="logo"
         tabindex="0"
       />
+      <a href="#main-body" class="skip">Skip to Main Content</a>
       <nav aria-label="Quantum">
         <ul class="menu menu-portrait menu-landscape" id="menu" role="menubar">
           <li role="menuitem">
@@ -169,39 +170,31 @@
       </div>
     </div>
 
-    <div class="main-body">
-      <div class="course-class">
-        <a href="#">
-          <div
-            class="course underline"
-            id="course-class-1"
-            onclick="CourseClassHighlight(id, 'underline')"
-          >
-            <img
-              class="course-class-img"
-              src="icons/courses.svg"
-              alt="courses icon"
-            />
-            <span class="course-class-count course-count">4</span>
-            <span class="course-class-name">Courses</span>
-          </div>
-        </a>
-        <a href="#">
-          <div
-            class="class underline"
-            id="course-class-2"
-            onclick="CourseClassHighlight(id, 'underline')"
-          >
-            <img
-              class="course-class-img"
-              src="icons/classes.svg"
-              alt="classes icon"
-            />
-            <span class="course-class-count class-count">4</span>
-            <span class="course-class-name">Classes</span>
-          </div>
-        </a>
-      </div>
+    <main id="main-body">
+      <nav class="course-class" aria-role="menubar">
+        <div
+          aria-role="menuitem"
+          class="course underline"
+          id="course-class-1"
+          onclick="CourseClassHighlight(id, 'underline')"
+          tabindex="0"
+        >
+          <img class="course-class-img" src="icons/courses.svg" alt="" />
+          <span class="course-class-count course-count">4</span>
+          <span class="course-class-name">Courses</span>
+        </div>
+        <div
+          aria-role="menuitem"
+          class="class underline"
+          id="course-class-2"
+          onclick="CourseClassHighlight(id, 'underline')"
+          tabindex="0"
+        >
+          <img class="course-class-img" src="icons/classes.svg" alt="" />
+          <span class="course-class-count class-count">4</span>
+          <span class="course-class-name">Classes</span>
+        </div>
+      </nav>
       <div class="show-sort">
         <div class="show"><span>Showing 4 of 4 courses</span></div>
         <div class="sort">
@@ -234,7 +227,7 @@
       <div class="content-container">
         <div class="content" id="cards"></div>
       </div>
-    </div>
+    </main>
 
     <div class="main-footer">
       <div class="contact">

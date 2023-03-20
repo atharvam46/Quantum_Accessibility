@@ -54,7 +54,20 @@ body{
         outline:  2px solid blue;
         background-color: #def;
     }
-   
+    .skip{
+        position: absolute;
+        left:-999px;
+        z-index: 999;
+        padding: 1em;
+        background-color: black;
+        color: white;
+        opacity: 0;
+    }
+    .skip:focus{
+        left:50%;
+        transform: translateX(-50%);
+        opacity: 1;
+    }
 
     nav{
         @include justifyCenter();
@@ -477,7 +490,7 @@ body{
     
 }
 @media screen and (max-width: 1040px) {
-    .main-body{
+    #main-body{
         .content-container{
             @include justifyCenter();
             .content{
@@ -490,7 +503,7 @@ body{
     }
 }
 
-.main-body{
+#main-body{
     margin: 32px;
     padding-bottom: auto;
     .course-class{
