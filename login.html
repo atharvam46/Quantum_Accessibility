@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/login.css" />
+    <script src="js/login.js"></script>
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header" role="banner">
+        <img src="icons/logo used in header.svg" alt="header logo" id="logo" />
+      </div>
+      <div class="form">
+        <form action="_blank" class="login">
+          <div class="formtitle">
+            <img src="icons/back.svg" alt="back button" id="backbutton" />
+            <span class="login-title">Log in with Quantum</span>
+          </div>
+
+          <div class="main-form">
+            <div class="school-type">
+              
+                <input type="radio" name="school-type" class="radio" id="dist" >
+                <label for="dist">District</label>
+        
+              <input type="radio" name="school-type" class="radio radio-school" id="ind-sch" >
+              <label for="ind-sch">Independent School</label><br>
+          </div>
+           
+
+            <div class="state-selector">
+              <div class="state-district">
+                <label for="state" class="state">State*</label>
+              </div>
+              <div
+                class="dropdown"
+                aria-controls="listbox1"
+                aria-expanded="false"
+                aria-haspopup="listbox"
+                aria-labelledby="state-selector"
+                id="combo1"
+                role="combobox"
+                tabindex="-1" 
+              >
+                <select id="state">
+                  <div
+                    class="options"
+                    role="listbox"
+                    id="listbox1"
+                    aria-labelledby="state-selector"
+                    tabindex="-1"
+                  >
+                    <option value="alabama" class="option">Alabama</option>
+                    <option value="alabama" class="option">Alaska</option>
+                    <option value="alabama" class="option">Florida</option>
+                    <option value="alabama" class="option">Ohio</option>
+                  </div>
+                </select>
+              </div>
+
+              <div class="state-district">
+                <label for="district" class="district">District*</label>
+              </div>
+              <div 
+              class="dropdown"
+              aria-controls="listbox1"
+              aria-expanded="false"
+              aria-haspopup="listbox"
+              aria-labelledby="state-selector"
+              id="combo1"
+              role="combobox"
+              tabindex="-1">
+                <select id="school">
+                  <div
+                    class="options"
+                    role="listbox"
+                    id="listbox1"
+                    aria-labelledby="state-selector"
+                    tabindex="-1"
+                  >
+                  <option value="alabama school district" class="option">
+                    Alabama school district
+                  </option>
+                  <option value="alabama school district" class="option">
+                    Alaska school district
+                  </option>
+                  <option value="alabama school district" class="option">
+                    Forida school district
+                  </option>
+                  <option value="alabama school district" class="option">
+                    Ohio school district
+                  </option>
+                </select>
+              </div>
+            </div>
+
+            <div 
+              class="email" 
+              role="textbox"
+              aria-placeholder="Username/Email ID"
+              aria-labelledby="email">
+             <input type="text" placeholder="Username/Email ID" required />
+            </div>
+            <div>
+              <a href="#" class="forgot"><span>FORGOT USERNAME?</span></a>
+            </div>
+            <div class="div-pwd"
+              role="textbox"
+              aria-placeholder="Password*"
+              aria-labelledby="div-pwd">
+              <input
+                type="password"
+                name="pwd"
+                id="pwd"
+                placeholder="Password*"
+                required
+              />
+              <img
+                src="icons/preview.svg"
+                alt=""
+                id="showpwd"
+                onclick="showHidePWD()"
+                style="fill: #1f7a54"
+              />
+            </div>
+            <div>
+              <a href="#" class="forgot"><span>FORGOT PASSWORD?</span></a>
+            </div>
+            <div class="remember">
+              <input type="checkbox" id="rem">
+                <label for="rem">Remember Me</label></span>
+          </div> 
+            <div class="btn" ><button onclick="openDash()">LOG IN</button></div>
+          </div>
+        </form>
+      </div>
+      <div class="main-footer">
+        <div class="contact">
+          <span class="about"> <a href="#" class="aboutus">About Us</a></span>
+          <span class="divide">|</span>
+          <span class="contactus"
+            ><a href="#" class="contactus"> Contact US</a></span
+          >
+        </div>
+        <div class="footer">
+          <img src="icons/logo used in footer.svg" class="logo-footer" />
+          <span class="divider"> | </span>
+          <span class="copyright">Copyright © 2020-2021</span>
+          <span class="zeus">Zeus Systems Pvt. Ltd.</span>
+          <span class="rights">All rights Reserved</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

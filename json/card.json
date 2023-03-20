@@ -1,0 +1,223 @@
+{
+    "card" :[
+                {
+                    "expired": true,
+                    "image": "images/imageMask-1.svg",
+                    "card_title":"Acceleration",
+                    "favourite": "icons/favourite.svg",
+                    "subject": ["Physics", "|", "Grade 7", "+2"],
+                    "unit_no":"4 ",
+                    "unit": "Units ",
+                    "lesson_no":"4 ",
+                    "lesson": "Lessons ",
+                    "topic_no":"4 ",
+                    "topic": "Topics",
+                    "option": ["No Classes", "Mr. Frank's Class A", "Mr. Frank's Class B", "All Classes"],
+                    "isSelected": 2,
+                    "student": "50 Students",
+                    "student_duration_divider": "|",
+                    "duration":"21-Jan-2020 - 21-Aug-2020",
+                    "preview_icon": "icons/preview.svg",
+                    "manage_course": "icons/manage course.svg",
+                    "grade_submission":"icons/grade submissions.svg",
+                    "report":"icons/reports.svg",
+                    "isDisabled": [false, false, false, false]
+                },
+                {
+                    "image": "images/imageMask-1.png",
+                    "card_title":"Displacement, Velocity and Speed",
+                    "favourite": "icons/favourite.svg",
+                    "subject": ["Physics", "|", "Grade 7", "+2"],
+                    "unit_no":"4 ",
+                    "unit": "Units ",
+                    "lesson_no":"4 ",
+                    "lesson": "Lessons ",
+                    "topic_no":"4 ",
+                    "topic": "Topics",
+                    "option": ["No Classes", "Mr. Frank's Class A", "Mr. Frank's Class B", "All Classes"],
+                    "isSelected": 0,
+                    "student": "50 Students",
+                    "student_duration_divider": "|",
+                    "duration":"21-Jan-2020 - 21-Aug-2020",
+                    "preview_icon": "icons/preview.svg",
+                    "manage_course": "icons/manage course.svg",
+                    "grade_submission":"icons/grade submissions.svg",
+                    "report":"icons/reports.svg",
+                    "isDisabled": [false, true, true, false]
+                },
+                {
+                    "image": "images/imageMask-3.png",
+                    "card_title":"Introduction to Biology: Micro organisms and how they affec...",
+                    "favourite": "icons/favourite.svg",
+                    "subject": ["Physics", "|", "Grade 7", "+2"],
+                    "unit_no":"4 ",
+                    "unit": "Units ",
+                    "lesson_no":"4 ",
+                    "lesson": "Lessons ",
+                    "topic_no":"4 ",
+                    "topic": "Topics",
+                    "option": ["No Classes", "Mr. Frank's Class A", "Mr. Frank's Class B", "All Classes"],
+                    "isSelected": 3,
+                    "student": "50 Students",
+                    "student_duration_divider": "|",
+                    "duration":"21-Jan-2020 - 21-Aug-2020",
+                    "preview_icon": "icons/preview.svg",
+                    "manage_course": "icons/manage course.svg",
+                    "grade_submission":"icons/grade submissions.svg",
+                    "report":"icons/reports.svg",
+                    "isDisabled": [false, true, true, false]
+                },
+                {
+                    "expired": true,
+                    "image": "images/imageMask-2.png",
+                    "card_title":"Introduction to High School Mathematics",
+                    "favourite": "icons/favourite.svg",
+                    "subject": ["Physics", "|", "Grade 7", "+2"],
+                    "unit_no":"",
+                    "unit": "",
+                    "lesson_no":"",
+                    "lesson": "",
+                    "topic_no":"",
+                    "topic": "",
+                    "option": ["No Classes", "Mr. Frank's Class A", "Mr. Frank's Class B", "All Classes"],
+                    "isSelected": 1,
+                    "student": "50 Students",
+                    "student_duration_divider": "|",
+                    "duration":"21-Jan-2020 - 21-Aug-2020",
+                    "preview_icon": "icons/preview.svg",
+                    "manage_course": "icons/manage course.svg",
+                    "grade_submission":"icons/grade submissions.svg",
+                    "report":"icons/reports.svg",
+                    "isDisabled": [false, false, false, false]
+                }
+            ],
+    "AlertArray": [
+            {
+                "msg": "License for introduction to algebra has been assigned to your school",
+                "course": "",
+                "class": "",
+                "date_time": "15-sep-2018 at 7:21 pm",
+                "isNewAlert": true
+            },
+            {
+                "msg": "Lesson 3 practice worksheet overdue for Amy Santiago",
+                "course": "advanced maths",
+                "class": "",
+                "date_time": "15-sep-2018 at 7:21 pm",
+                "isNewAlert": false
+            },
+            {
+                "msg": "23 new students created",
+                "course": "",
+                "class": "",
+                "date_time": "15-sep-2018 at 7:21 pm",
+                "isNewAlert": true
+            },
+            {
+                "msg": "15 submissions ready for evaluation",
+                "course": "advanced maths",
+                "class": "",
+                "date_time": "15-sep-2018 at 7:21 pm",
+                "isNewAlert": false
+            },
+            {
+                "msg": "License for basic concepts in geometry has been assigned to your school",
+                "course": "advanced maths",
+                "class": "",
+                "date_time": "15-sep-2018 at 7:21 pm",
+                "isNewAlert": true
+            },
+            {
+                "msg": "Lesson 3 practice worksheet overdue for Sam Diego",
+                "course": "advanced maths",
+                "class": "",
+                "date_time": "15-sep-2018 at 7:21 pm",
+                "isNewAlert": true
+            },
+            {
+                "msg": "Lesson 3 practice worksheet overdue for Amy Santiago",
+                "course": "advanced maths",
+                "class": "",
+                "date_time": "15-sep-2018 at 7:21 pm",
+                "isNewAlert": true
+            },
+            {
+                "msg": "Lesson 3 practice worksheet overdue for Amy Santiago",
+                "course": "advanced maths",
+                "class": "",
+                "date_time": "15-sep-2018 at 7:21 pm",
+                "isNewAlert": true
+            },
+            {
+                "msg": "Lesson 3 practice worksheet overdue for Amy Santiago",
+                "course": "advanced maths",
+                "class": "",
+                "date_time": "15-sep-2018 at 7:21 pm",
+                "isNewAlert": false
+            }
+        ],
+        "AnnouncementArray": [
+            {
+            "pa_name": "Wilson Kumar",
+            "msg": "No classes will be held on 21st Nov",
+            "course": "advanced maths",
+            "class": "",
+            "no_of_file_attached": 2,
+            "date_time": "15-sep-2018 at 7:21 pm",
+            "isNewAnnouncement": true
+        },
+        {
+            "pa_name": "Samson White",
+            "msg": "Guest lecture on Geometry on 20th Sept",
+            "course": "advanced maths",
+            "class": "",
+            "no_of_file_attached": 2,
+            "date_time": "15-sep-2018 at 7:21 pm",
+            "isNewAnnouncement": true
+        },
+        {
+            "pa_name": "Wilson Kumar",
+            "msg": "Additional course materials available on request",
+            "course": "advanced maths",
+            "class": "",
+            "no_of_file_attached": 2,
+            "date_time": "15-sep-2018 at 7:21 pm",
+            "isNewAnnouncement": true
+        },
+        {
+            "pa_name": "Wilson Kumar",
+            "msg": "No classes will be held on 25th Dec",
+            "course": "advanced maths",
+            "class": "",
+            "no_of_file_attached": 2,
+            "date_time": "15-sep-2018 at 7:21 pm",
+            "isNewAnnouncement": true
+        },
+        {
+            "pa_name": "Wilson Kumar",
+            "msg": "Additional course materials available on request",
+            "course": "advanced maths",
+            "class": "",
+            "no_of_file_attached": 2,
+            "date_time": "15-sep-2018 at 7:21 pm",
+            "isNewAnnouncement": true
+        },
+        {
+            "pa_name": "Wilson Kumar",
+            "msg": "Additional course materials available on request",
+            "course": "advanced maths",
+            "class": "",
+            "no_of_file_attached": 2,
+            "date_time": "15-sep-2018 at 7:21 pm",
+            "isNewAnnouncement": true
+        },
+        {
+            "pa_name": "Wilson Kumar",
+            "msg": "Additional course materials available on request",
+            "course": "advanced maths",
+            "class": "",
+            "no_of_file_attached": 2,
+            "date_time": "15-sep-2018 at 7:21 pm",
+            "isNewAnnouncement": true
+        }]
+}
