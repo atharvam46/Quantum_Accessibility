@@ -205,7 +205,8 @@
       <div class="show-sort">
         <div class="show"><span>Showing 4 of 4 courses</span></div>
         <div class="sort">
-          <span class="sort-label">Sort By:</span>
+          <!-- <span class="sort-label">Sort By:</span> -->
+          <label for="sort" class="sort-label">Sort By :</label>
           <div
             class="dropdown"
             aria-controls="listbox1"
@@ -213,14 +214,13 @@
             aria-haspopup="listbox"
             aria-labelledby="show-sort"
             role="combobox"
-            tabindex="-1"
           >
             <select id="sort-select">
               <div
                 class="options"
                 role="listbox"
                 aria-labelledby="show-sort"
-                tabindex="-1"
+                tabindex="0"
               >
                 <option value="Course-Name">Course Name</option>
                 <option value="Course-Name">Course Date</option>
