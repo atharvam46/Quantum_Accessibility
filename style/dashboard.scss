@@ -41,13 +41,8 @@ body{
     background: url("../images/header_pattern_image.png");
     background-color: #25313f;
     background-blend-mode: multiply;
-    position: relative;
-    a{ 
-        display:flex;
-        margin-left: 24px;
-        padding: 2  px 6px;
-        
-    }
+    position:relative;
+    
    
     #logo{
         display: flex;
@@ -64,40 +59,35 @@ body{
     nav{
         @include justifyCenter();
         margin-left: auto;
+        padding: 8px;
         .menu{
             text-transform: uppercase;
             list-style: none;
             display: flex;
             justify-self: end;
-           
             @media screen and (min-width: 1040px){
                 li{  
-                    
-                    padding: 15px 0;
                     margin-right: 20px;
                     font-size: 14px;
                     font-weight: bold;
                     color: #3FD28B;
-                        
-                    
-                    
-                    [role="menuitem"]{
-                        padding:4px 8px;
+                    .menu-common{
+                        padding: 4px 8px;
+                        :nth-child(1) {
+                            color: white;
+                            border-bottom: 4px solid #ffffff;
+                        }
                     }
-                  
-                }
-                li:focus{
-                    outline:  2px solid blue;
-                    background-color: #def;
-                    //color:black;
-                    //padding:4px 8px;
-                    border-radius: 5px;
-                }
-                // :nth-child(1) {
-                //     color: white;
-                //     border-bottom: 4px solid #ffffff;
-                // }
-               
+                    .menu-common:focus{
+                        outline:  2px solid blue;
+                        background-color: #def;
+                        //color:black;
+                        //padding:4px 8px;
+                        border-radius: 5px;
+                    }
+                    
+                    }
+                
             }
         }
         div{
@@ -165,6 +155,15 @@ body{
                 .alert-group, .anouncement-group{
                     position: relative;
                     color: #FFFFFF;
+                    .icon{
+                        padding:4px 8px;
+                    }
+                    .icon:focus{
+                        outline:  2px solid blue;
+                        background-color: #def;
+                        border-radius: 5px;
+                    }
+                    
                     
                 }
                 
@@ -195,7 +194,14 @@ body{
                 
                 .profile-group{
                     position: relative;
-                    
+                    .icon{
+                        padding: 4px 8px;
+                    }
+                    .icon:focus{
+                        outline:  2px solid blue;
+                        background-color: #def;
+                        border-radius: 5px;
+                    }
                 }
                 .profile-group::after{
                     content: attr(current-badge);
@@ -209,16 +215,10 @@ body{
                     @include justifyCenter();
                     font-size: 12px;
                 }
-                [role="menuitem"]{
-                    padding:2px 4px;
-                }
-                [role="menuitem"]:focus{
-                    outline:  2px solid blue;
-                    background-color: #def;
-                    border-radius: 5px;
-                    
-                 }
+               
             }
+           
+          
            
         }
     }

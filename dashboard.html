@@ -20,56 +20,56 @@
         tabindex="0"
       />
       <nav aria-label="Quantum">
-        <ul
-          class="menu menu-portrait menu-landscape"
-          id="menu"
-          role="menubar"
-          aria-label="Quantum"
-        >
-          <li
-            id="menu-1"
-            class="menu-common"
-            onclick="menuHighlight(id, 'menu-common')"
-            role="menuitem"
-            tabindex="0"
-          >
-            Dashboard
+        <ul class="menu menu-portrait menu-landscape" id="menu" role="menubar">
+          <li role="menuitem">
+            <div
+              id="menu-1"
+              class="menu-common"
+              tabindex="0"
+              onclick="menuHighlight(id, 'menu-common')"
+            >
+              Dashboard
+            </div>
           </li>
-          <li
-            id="menu-2"
-            class="menu-common"
-            onclick="menuHighlight(id, 'menu-common')"
-            role="menuitem"
-            tabindex="0"
-          >
-            Content
+          <li role="menuitem">
+            <div
+              onclick="menuHighlight(id, 'menu-common')"
+              id="menu-2"
+              class="menu-common"
+              tabindex="0"
+            >
+              Content
+            </div>
           </li>
-          <li
-            id="menu-3"
-            class="menu-common"
-            onclick="menuHighlight(id, 'menu-common')"
-            role="menuitem"
-            tabindex="0"
-          >
-            Users
+          <li role="menuitem">
+            <div
+              id="menu-3"
+              class="menu-common"
+              onclick="menuHighlight(id, 'menu-common')"
+              tabindex="0"
+            >
+              Users
+            </div>
           </li>
-          <li
-            id="menu-4"
-            class="menu-common"
-            onclick="menuHighlight(id, 'menu-common')"
-            role="menuitem"
-            tabindex="0"
-          >
-            Reports
+          <li role="menuitem">
+            <div
+              id="menu-4"
+              class="menu-common"
+              onclick="menuHighlight(id, 'menu-common')"
+              tabindex="0"
+            >
+              Reports
+            </div>
           </li>
-          <li
-            id="menu-5"
-            class="menu-common"
-            onclick="menuHighlight(id, 'menu-common')"
-            role="menuitem"
-            tabindex="0"
-          >
-            Admin
+          <li role="menuitem">
+            <div
+              id="menu-5"
+              class="menu-common"
+              onclick="menuHighlight(id, 'menu-common')"
+              tabindex="0"
+            >
+              Admin
+            </div>
           </li>
         </ul>
         <div class="hamburger" id="hamburger">
@@ -104,53 +104,54 @@
             </li>
           </div>
         </div>
-        <ul class="others">
-          <li role="none">
-            <a
-              role="menuitem"
-              aria-haspopup="true"
-              aria-expanded="false"
-              href="#"
-            >
-              <div
-                class="alert-group"
-                id="alert-group"
-                current-count="2"
-                onclick="openMenu(id)"
-              >
-                <div><img src="icons/alerts.svg" id="alert-image" /></div>
+        <ul class="others" role="menubar">
+          <li
+            role="menuitem"
+            aria-haspopup="true"
+            aria-expanded="false"
+            onclick="openMenu(id)"
+          >
+            <div class="alert-group" id="alert-group" current-count="2">
+              <div>
+                <img
+                  class="icon"
+                  src="icons/alerts.svg"
+                  id="alert-image"
+                  alt="alert icon"
+                  tabindex="0"
+                />
               </div>
-            </a>
+            </div>
           </li>
-          <li role="none">
-            <a
-              role="menuitem"
-              aria-haspopup="true"
-              aria-expanded="false"
-              href="#"
-            >
-              <div
-                class="anouncement-group"
-                current-count="1"
-                onclick="openMenu(id)"
-              >
-                <div>
-                  <img src="icons/announcements.svg" id="announcement" />
-                </div>
+          <li
+            role="menuitem"
+            aria-haspopup="true"
+            aria-expanded="false"
+            onclick="openMenu(id)"
+          >
+            <div class="anouncement-group" current-count="1">
+              <div>
+                <img
+                  class="icon"
+                  src="icons/announcements.svg"
+                  id="announcement"
+                  alt="announcement icon"
+                  tabindex="0"
+                />
               </div>
-            </a>
+            </div>
           </li>
-          <li role="none">
-            <a
-              role="menuitem"
-              aria-haspopup="true"
-              aria-expanded="false"
-              href="#"
-            >
-              <div class="profile-group" current-badge="A">
-                <div><img src="icons/user.png" /></div>
+          <li role="menuitem">
+            <div class="profile-group" current-badge="A">
+              <div>
+                <img
+                  class="icon"
+                  src="icons/user.png"
+                  alt="user icon"
+                  tabindex="0"
+                />
               </div>
-            </a>
+            </div>
           </li>
         </ul>
       </nav>

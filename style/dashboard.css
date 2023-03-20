@@ -39,11 +39,6 @@ body {
   background-blend-mode: multiply;
   position: relative;
 }
-.header a {
-  display: flex;
-  margin-left: 24px;
-  padding: 2 px 6px;
-}
 .header #logo {
   display: flex;
   align-items: flex-start;
@@ -59,6 +54,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-left: auto;
+  padding: 8px;
 }
 .header nav .menu {
   text-transform: uppercase;
@@ -68,16 +64,19 @@ body {
 }
 @media screen and (min-width: 1040px) {
   .header nav .menu li {
-    padding: 15px 0;
     margin-right: 20px;
     font-size: 14px;
     font-weight: bold;
     color: #3FD28B;
   }
-  .header nav .menu li [role=menuitem] {
+  .header nav .menu li .menu-common {
     padding: 4px 8px;
   }
-  .header nav .menu li:focus {
+  .header nav .menu li .menu-common :nth-child(1) {
+    color: white;
+    border-bottom: 4px solid #ffffff;
+  }
+  .header nav .menu li .menu-common:focus {
     outline: 2px solid blue;
     background-color: #def;
     border-radius: 5px;
@@ -152,6 +151,14 @@ body {
   position: relative;
   color: #FFFFFF;
 }
+.header nav .others li .alert-group .icon, .header nav .others li .anouncement-group .icon {
+  padding: 4px 8px;
+}
+.header nav .others li .alert-group .icon:focus, .header nav .others li .anouncement-group .icon:focus {
+  outline: 2px solid blue;
+  background-color: #def;
+  border-radius: 5px;
+}
 .header nav .others li .alert-group::after {
   content: attr(current-count);
   position: absolute;
@@ -183,6 +190,14 @@ body {
 .header nav .others li .profile-group {
   position: relative;
 }
+.header nav .others li .profile-group .icon {
+  padding: 4px 8px;
+}
+.header nav .others li .profile-group .icon:focus {
+  outline: 2px solid blue;
+  background-color: #def;
+  border-radius: 5px;
+}
 .header nav .others li .profile-group::after {
   content: attr(current-badge);
   position: absolute;
@@ -196,14 +211,6 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 12px;
-}
-.header nav .others li [role=menuitem] {
-  padding: 2px 4px;
-}
-.header nav .others li [role=menuitem]:focus {
-  outline: 2px solid blue;
-  background-color: #def;
-  border-radius: 5px;
 }
 .header .alert_wrapper {
   display: none;

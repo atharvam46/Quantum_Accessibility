@@ -3,6 +3,7 @@
                 {
                     "expired": true,
                     "image": "images/imageMask-1.svg",
+                    "alt":"Acceleration",
                     "card_title":"Acceleration",
                     "favourite": "icons/favourite.svg",
                     "subject": ["Physics", "|", "Grade 7", "+2"],
@@ -25,6 +26,7 @@
                 },
                 {
                     "image": "images/imageMask-1.png",
+                    "alt":"Displacement, Velocity and Speed",
                     "card_title":"Displacement, Velocity and Speed",
                     "favourite": "icons/favourite.svg",
                     "subject": ["Physics", "|", "Grade 7", "+2"],
@@ -47,6 +49,7 @@
                 },
                 {
                     "image": "images/imageMask-3.png",
+                    "alt":"Biology",
                     "card_title":"Introduction to Biology: Micro organisms and how they affec...",
                     "favourite": "icons/favourite.svg",
                     "subject": ["Physics", "|", "Grade 7", "+2"],
@@ -70,6 +73,7 @@
                 {
                     "expired": true,
                     "image": "images/imageMask-2.png",
+                    "alt":"Mathematics",
                     "card_title":"Introduction to High School Mathematics",
                     "favourite": "icons/favourite.svg",
                     "subject": ["Physics", "|", "Grade 7", "+2"],

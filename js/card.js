@@ -36,7 +36,7 @@ fetch('json/card.json')
         img.classList.add("image");
         var imgSrc = document.createElement("img");
         imgSrc.setAttribute('src', "".concat(item.image));
-        imgSrc.setAttribute('alt', "".concat(item.image));
+        imgSrc.setAttribute('alt', "".concat(item.alt));
         img.appendChild(imgSrc);
         detail.appendChild(img);
         var cardData = document.createElement("div");
@@ -48,8 +48,11 @@ fetch('json/card.json')
         name_1.appendChild(title);
         var favorite = document.createElement("img");
         favorite.setAttribute('src', "".concat(item.favourite));
+        favorite.setAttribute('alt',"favourite")
         favorite.setAttribute('id', "card-".concat(i, "-fav"));
+        favorite.setAttribute('tabindex','0')
         favorite.setAttribute('onclick', 'favorite(id)');
+        
         name_1.appendChild(favorite);
         cardData.appendChild(name_1);
         var subject = document.createElement("div");
